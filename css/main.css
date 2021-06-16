@@ -94,3 +94,29 @@
     border-radius: 30px;
     outline: none;
 }
+
+        @media (min-width:992px) {
+            .box {
+                padding: 50px 100px;
+            }
+        }
+
+        @media (max-width:992px) {
+            .box {
+                padding: 25px 50px;
+            }
+
+            .tulisan h1 {
+                margin:30px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .ctn {
+                border-radius: 35px;
+            }
+
+            .video video {
+                border-radius: 20px;
+            }
+        }
