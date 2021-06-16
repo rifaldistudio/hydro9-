@@ -40,7 +40,7 @@ body {
     width: 80%;
     margin: 100px auto;
     background-image: url(../img/bg.jpg);
-    background-color: var(--warna-ungu);
+    background-color: var(--warna-ungu, #8C208A);
     border-radius: 50px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,27 +51,27 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 58px;
-    color: var(--warna-ungu);
+    color: var(--warna-ungu, #8C208A);
     line-height: 80px;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: var(--warna-ungu);
+    color: var(--warna-ungu, #8C208A);
 }
 
 h5  {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: var(--warna-ungu);
+    color: var(--warna-ungu, #8C208A);
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    color: var(--warna-hitam);
+    color: var(--warna-hitam, black);
     line-height: 30px;
 }
 
