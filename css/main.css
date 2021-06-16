@@ -82,6 +82,7 @@
     max-width: 100%;
     border-radius: 30px;
     outline: none;
+    margin: 15px auto;
 }
 
         @media (min-width:992px) {
@@ -146,3 +147,9 @@
                 line-height: 23px;
             }
         }
+
+.demonstrasi h1 {
+    text-align: center;
+    color: var(--warna-putih);
+    margin-bottom: 30px;
+}
