@@ -9,10 +9,49 @@
     margin-top: 50px;
 }
 
+        @media (max-width:768px) {
+            .hero p {
+                margin-top: 40px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .hero p {
+                margin-top: 20px;
+            }
+        }
+
 .logo img{
-    width: 360px;
+    width: 320px;
     margin-bottom: 50px;
 }
+
+        @media (max-width:991px) {
+            .logo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logo img{
+                width: 280px;
+            }
+        }
+        
+        @media (max-width:768px) {
+            .logo img{
+                width: 260px;
+                margin-bottom: 40px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .logo img{
+                width: 240px;
+            }
+        }
+        
 
 .gambar-produk img {
     width: 680px;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+/* GANTI WARNA DISINI */
 :root {
     --warna-ungu :#8C208A;
     --warna-hitam :#2A2A2A;
@@ -58,7 +58,7 @@ p {
             }
         }
 
-        @media (max-width:992px) {
+        @media (max-width:991px) {
             h1 {
                 font-size: 42px;
                 line-height: 60px;
@@ -68,6 +68,34 @@ p {
             p {
                 font-size: 14px;
                 line-height: 26px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 38px;
+                line-height: 50px;
+                text-align: center;
+            }
+            
+            p {
+                font-size: 12px;
+                line-height: 24px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width:576px) {
+            h1 {
+                font-size: 36px;
+                line-height: 40px;
+                text-align: center;
+            }
+            
+            p {
+                font-size: 11px;
+                line-height: 23px;
                 text-align: center;
             }
         }
