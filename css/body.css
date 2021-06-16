@@ -2,6 +2,7 @@
 
 /* GANTI WARNA DISINI */
 :root {
+    --warna-putih :#FFF;
     --warna-ungu :#8C208A;
     --warna-hitam :#2A2A2A;
     --warna-biru :#352692  ;
@@ -38,6 +39,12 @@ h1 {
     line-height: 80px;
 }
 
+h5  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--warna-ungu);
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -64,6 +71,10 @@ p {
                 line-height: 60px;
                 text-align: center;
             }
+
+            h5  {
+                text-align: center;
+            }
             
             p {
                 font-size: 14px;
@@ -78,6 +89,10 @@ p {
                 line-height: 50px;
                 text-align: center;
             }
+
+            h5  {
+                text-align: center;
+            }
             
             p {
                 font-size: 12px;
@@ -90,6 +105,10 @@ p {
             h1 {
                 font-size: 36px;
                 line-height: 40px;
+                text-align: center;
+            }
+
+            h5  {
                 text-align: center;
             }
             

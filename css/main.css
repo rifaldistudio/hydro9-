@@ -56,3 +56,39 @@
 .gambar-produk img {
     width: 680px;
 }
+
+.ctn {
+    width: 80%;
+    margin: 100px auto;
+    background-image: url(../img/bg.jpg);
+    background-color: var(--warna-ungu);
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.box {
+    padding: 120px 100px; 
+}
+
+.tulisan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centers;
+}
+
+.tulisan h1, .tulisan h5 {
+    color: var(--warna-putih);
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+.video video {
+    width: 540px;
+}
