@@ -54,7 +54,7 @@
         
 
 .gambar-produk img {
-    width: 680px;
+    max-width: 100%;
 }
 
 .ctn {
