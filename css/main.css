@@ -120,3 +120,40 @@
                 border-radius: 20px;
             }
         }
+
+.text-area {
+    padding: 0px 16px;
+}
+
+.text-area h3, .text-area p {
+    text-align: left;
+    margin: 25px;
+}
+
+        @media (max-width:1200px) {
+            .text-area ol li {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+
+        @media (max-width:991px) {
+            .text-area ol li {
+                font-size: 14px;
+                line-height: 26px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .text-area ol li {
+                font-size: 12px;
+                line-height: 24px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .text-area ol li {
+                font-size: 11px;
+                line-height: 23px;
+            }
+        }
