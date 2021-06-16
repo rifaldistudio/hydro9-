@@ -90,5 +90,7 @@
 }
 
 .video video {
-    width: 540px;
+    max-width: 100%;
+    border-radius: 30px;
+    outline: none;
 }
