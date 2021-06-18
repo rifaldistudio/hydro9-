@@ -50,7 +50,7 @@ $(' #client .owl-carousel').owlCarousel({
 $(' #portfolio .owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     autoplay:true,
     autoplayTimeout:3000,
     animateIn: 'fadeIn',
