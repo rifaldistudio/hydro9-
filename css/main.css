@@ -51,10 +51,16 @@
                 width: 240px;
             }
         }
-        
+       
 
 .gambar-produk img {
     max-width: 100%;
+}
+
+.gambar-produk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
@@ -210,3 +216,10 @@
     text-align: center;
     color: var(--warna-hitam);
 }
+
+
+
+
+
+
+
