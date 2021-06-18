@@ -47,6 +47,34 @@ body {
     background-blend-mode: multiply;
 }
 
+button {
+    margin-top: 30px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    background: var(--warna-ungu, #8C208A);
+}
+
+button a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--warna-putih, white);
+}
+
+button:hover {
+    background: var(--warna-biru);
+    transition: 0.3s;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: var(--warna-putih);
+    background-color: var(--warna-biru);
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
